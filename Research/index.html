@@ -84,31 +84,38 @@
 
 <article>
   <style>
+    .Research .container {
+      max-width: 1200px; /* Adjust based on your layout needs */
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+    .row-cols-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px 20px; /* Vertical and horizontal gap */
+    }
     .card-item {
       display: flex;
       flex-direction: column;
-      margin-bottom: 30px; /* Adjust the space between projects */
     }
     .card-img img {
-      height: 200px; /* Adjust based on your needs */
-      object-fit: cover; /* Keeps aspect ratio without stretching images */
+      width: 100%; /* Ensure the image takes the full width of its container */
+      height: auto; /* Adjust height automatically */
+      object-fit: cover; /* Cover the area without stretching */
     }
     .card-body {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+      padding: 15px;
     }
     .hoverable {
       transition: box-shadow .25s;
-      box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 
+      box-shadow: 0 2px 2px rgba(0,0,0,0.14), 
                   0 3px 1px -2px rgba(0,0,0,0.12), 
-                  0 1px 5px 0 rgba(0,0,0,0.2);
+                  0 1px 5px rgba(0,0,0,0.2);
     }
     .hoverable:hover {
-      box-shadow: 0 5px 5px 0 rgba(0,0,0,0.14), 
+      box-shadow: 0 5px 5px rgba(0,0,0,0.14), 
                   0 7px 3px -2px rgba(0,0,0,0.12), 
-                  0 2px 9px 0 rgba(0,0,0,0.2);
+                  0 2px 9px rgba(0,0,0,0.2);
     }
   </style>
   <div class="Research">
