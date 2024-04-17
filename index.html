@@ -35,6 +35,41 @@
                 font-size: 1.25rem; /* Increase icon size */
             }
         }
+
+
+
+
+/* Additional styling for close button inside the navbar collapse */
+.navbar-toggler[aria-label="Close navigation"] .icon-bar {
+    background-color: #333;
+    width: 16px; /* Slightly smaller than toggle icon */
+    height: 2px;
+    position: relative;
+    background-color: red; /* Make the close button red to stand out */
+}
+
+/* Rotate bars to form an 'X' */
+.navbar-toggler[aria-label="Close navigation"] .icon-bar.close-bar {
+    display: block;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -8px; /* Half the width to perfectly center */
+    margin-top: -1px; /* Half the height to perfectly center */
+}
+
+.navbar-toggler[aria-label="Close navigation"] .icon-bar.close-bar::before {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 16px;
+    background-color: red;
+    position: absolute;
+    transform: rotate(-90deg);
+}
+
+        
     </style>
     <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. "/>
     <meta name="keywords" content="Planetary Boundary Layer, Cloud, Deep-Learning, Land-Atmosphere Coupling"/>
@@ -71,6 +106,16 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/Publications/">Publications</a>
                         </li>
+
+
+                <li class="nav-item">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Close navigation">
+                        <span class="sr-only">Close</span>
+                        <span class="icon-bar close-bar"></span>
+                    </button>
+                </li>
+
+                        
                     </ul>
                 </div>
             </div>
