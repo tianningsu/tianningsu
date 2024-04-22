@@ -97,8 +97,6 @@
         margin-bottom: 5px; /* Adds some space between list items */
         background-color: #f9f9f9; /* Optional: adds a background color */
     }
-</style>
-<style>
     .btn.btn-sm.z-depth-0 {
         border: 1px solid black; /* Adjusts border to be less bold */
         border-radius: 0; /* Keeps the square shape */
@@ -130,6 +128,32 @@
     .abstract-btn {
         cursor: pointer; /* Indicates the button is clickable */
     }
+
+
+.bibliography li {
+    border: 1px solid #ddd; /* Adds a light boundary around each publication */
+    padding: 10px; /* Adds padding inside the boundary */
+    margin-bottom: 15px; /* Space between list items */
+    background-color: #f9f9f9; /* Background color */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.bibliography li:hover {
+    background-color: #e8e8e8; /* Changes background color on hover */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* Adds shadow on hover */
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.bibliography li a {
+    text-decoration: none; /* Ensure links have no underlines */
+    color: inherit; /* Keep text color consistent */
+}
+
+.bibliography li a:hover {
+    color: #007BFF; /* Changes text color when hovering over links */
+}
+
+    
 </style>
 
 <ol class="bibliography">
