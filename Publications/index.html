@@ -161,6 +161,16 @@
     transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
     
+.title {
+    text-decoration: none; /* No underline by default */
+    transition: all 0.3s; /* Smooth transition for hover effects */
+}
+
+.title:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    color: #007BFF; /* Optional: change text color on hover */
+}
+    
 </style>
 
 <ol class="bibliography">
@@ -269,9 +279,9 @@ The planetary boundary layer (PBL) height (PBLH) is an important parameter for v
                 <div class="periodical"><em>Geophysical Research Letters</em> </div>
                 <div class="links">
                     <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
-                    <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023GL108090" class="btn btn-sm z-depth-0 html-pdf-btn" role="button" target="_blank">HTML</a>
-                    <a href="https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2023GL108090" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">PDF</a>
-                    <a href="https://asr.science.energy.gov/science/highlights/1233" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">Highlight</a>
+                    <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023GL108090" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button" target="_blank">HTML</a>
+                    <a href="https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2023GL108090" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">PDF</a>
+                    <a href="https://asr.science.energy.gov/science/highlights/1233" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">Highlight</a>
                 </div>
                 <div class="abstract hidden">
                     <p>Understanding interactions between low clouds and land surface fluxes is critical to comprehending Earth’s energy balance, yet their relationships remain elusive, with discrepancies between observations and modeling. Leveraging long-term field observations over the Southern Great Plains, this investigation revealed that cloud-land interactions are closely connected to cloud-land coupling regimes. Observational evidence supports a dual-mode interaction: coupled stratiform clouds predominate in low sensible heat scenarios, while coupled cumulus clouds dominate in high sensible heat scenarios. Reanalysis datasets, MERRA-2 and ERA-5, obscure this dichotomy owing to a shortfall in representing boundary layer clouds, especially in capturing the initiation of coupled cumulus in high sensible heat scenarios. ERA-5 demonstrates a relatively closer alignment with observational data, particularly in capturing relationships between cloud frequency and latent heat, markedly outperforming MERRA-2. Our study underscores the necessity of distinguishing different cloud coupling regimes, essential to the understanding of their interactions for advancing land-atmosphere interactions.</p>
@@ -283,14 +293,21 @@ The planetary boundary layer (PBL) height (PBLH) is an important parameter for v
     <li>
         <div class="row">
             <div class="col-sm-12">
-                <div class="title">Decoding the dialogue between clouds and land</div>
+
+            <a class="title" href="https://eos.org/science-updates/decoding-the-dialogue-between-clouds-and-land" 
+               target="_blank" 
+               rel="noopener noreferrer">
+               Decoding the dialogue between clouds and land
+            </a>
+
+                
                 <div class="author"><strong>Su, T.*</strong> and Li, Z.</div>
                 <div class="periodical"><em>Eos</em></div>
                 <div class="links">
                     <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
-                    <a href="https://eos.org/science-updates/decoding-the-dialogue-between-clouds-and-land" class="btn btn-sm z-depth-0 html-pdf-btn" role="button" target="_blank">HTML</a>
-                    <a href="/assets/pdf/Eos.pdf" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">PDF</a>
-                    <a href="https://asr.science.energy.gov/science/highlights/1226" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">Highlight</a>
+                    <a href="/assets/pdf/Eos.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">PDF</a>
+                    <a href="https://asr.science.energy.gov/science/highlights/1226" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">Highlight</a>
+                    <a href="https://www.arm.gov/news/facility/post/97313" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">News</a>
 
                 </div>
                 <div class="abstract hidden">
