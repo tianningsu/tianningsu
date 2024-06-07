@@ -1,1 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tianning Su</title>
+    <meta name="author" content="Tianning Su"/>
+    <style>
+        .container.mt-5 {
+            padding-top: 15px; /* Significantly increase top padding */
+        }
 
+        .navbar-toggler {
+            background-color: #f8f9fa;  /* Example light background color */
+            border-color: #f8f9fa;     /* Matching border to increase visibility */
+        }
+        .icon-bar {
+            display: block;
+            width: 22px;
+            height: 2px;
+            background-color: #333;  /* Dark color for the icon bars to stand out */
+            margin: 5px 0; /* Spacing between bars */
+            transition: all 0.3s;
+        }
+       
+        /* Ensuring navbar has a non-transparent background */
+        .navbar {
+            background-color: #ffffff; /* Or any color you prefer */
+        }
+        /* Adjusting toggle button for better visibility on mobile */
+        @media (max-width: 768px) {
+            .navbar-toggler {
+                padding: .25rem 1rem; /* Increase padding */
+                font-size: 1.25rem; /* Increase icon size */
+            }
+        }
+
+        
+    </style>
+    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. "/>
+    <meta name="keywords" content="Planetary Boundary Layer, Cloud, Deep-Learning, Land-Atmosphere Coupling"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://devarding.github.io/">
+    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚛️</text></svg>">
+</head>
+
+<body class="fixed-top-nav">
+    <header>
+        <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+            <div class="container">
+                <a class="navbar-brand title font-weight-lighter" href="/">Tianning Su</a>
+                <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar top-bar"></span>
+                    <span class="icon-bar middle-bar"></span>
+                    <span class="icon-bar bottom-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse text-right" id="navbarNav">
+                    <ul class="navbar-nav ml-auto flex-nowrap">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/CV/">CV</a>
+                        </li>        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Research/">Research</a>
+                        </li>                        
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/Publications/">Publications</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Links/">Links<span class="sr-only">(current)</span></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<div class="container mt-5"> <div class="post"> <header class="post-header"> <h1 class="post-title">Publications</h1><p class="post-description">  
+ (<strong>*</strong> corresponding author; <strong>+</strong> co-first author; <strong>#</strong> supervised student)   
+</p>  </header> 
+
+<article> <div class="Publications"> 
+    
+<style>
+    .bibliography li {
+        border: 1px solid #ddd; /* Adds a light boundary around each publication */
+        padding: 1px; /* Adds some padding inside the boundary */
+        margin-bottom: 5px; /* Adds some space between list items */
+        background-color: #f9f9f9; /* Optional: adds a background color */
+    }
+    .btn.btn-sm.z-depth-0 {
+        border: 1px solid black; /* Adjusts border to be less bold */
+        border-radius: 0; /* Keeps the square shape */
+        padding: 0.25rem 0.5rem; /* Reduces the size of the buttons */
+        font-size: 0.75rem; /* Reduces the font size inside the buttons */
+    }
+    .abstract.hidden {
+        display: none; /* Ensures abstract is hidden by default */
+    }
+    .links {
+        margin-bottom: 10px; /* Space before abstract */
+    }
+    .bibliography li {
+        border: 1px solid #ddd; /* Light boundary around each publication */
+        padding: 10px; /* Adds some padding inside the boundary */
+        margin-bottom: 15px; /* Space between list items */
+        background-color: #f9f9f9; /* Background color */
+    }
+    .title {
+        font-weight: 400; /* Makes the title bolder than normal but not as strong as <strong> */
+    }
+    .abstract-btn, .html-pdf-btn {
+        border: 1px solid black; /* Black border around buttons */
+        border-radius: 5px; /* Rounds the corners of the buttons */
+    }
+    .abstract.hidden {
+        display: none; /* Abstract hidden by default */
+    }
+    .abstract-btn {
+        cursor: pointer; /* Indicates the button is clickable */
+    }
+
+
+.bibliography li {
+    border: 1px solid #ddd; /* Adds a light boundary around each publication */
+    padding: 10px; /* Adds padding inside the boundary */
+    margin-bottom: 15px; /* Space between list items */
+    background-color: #f9f9f9; /* Background color */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.bibliography li:hover {
+    background-color: #e8e8e8; /* Changes background color on hover */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* Adds shadow on hover */
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.bibliography li a {
+    text-decoration: none; /* Ensure links have no underlines */
+    color: inherit; /* Keep text color consistent */
+}
+
+.bibliography li a:hover {
+    color: #007BFF; /* Changes text color when hovering over links */
+}
+
+.bibliography li {
+    border: 1px solid #ddd; /* Adds a light boundary around each publication */
+    padding: 10px; /* Adds padding inside the boundary */
+    margin-bottom: 15px; /* Space between list items */
+    background-color: #f9f9f9; /* Background color */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+    
+.title {
+    text-decoration: none; /* No underline by default */
+    transition: all 0.3s; /* Smooth transition for hover effects */
+}
+
+.title:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    color: #007BFF; /* Optional: change text color on hover */
+}
+    
+</style>
+
+<ol class="bibliography">
+<h4 class="year">Under Review</h4>
+
+  <li>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title">Boundary-Layer-Coupled and Decoupled Clouds in Global Storm-Revolving Models: Comparisons with Field Observations</div>
+                <div class="author"><strong>Su, T.*</strong>, Zhang, Y, and Tian, J</div>
+                <div class="periodical"><em>Journal of Geophysical Research: Atmospheres</em> (Upon Submission) </div>
+            </div>
+        </div>
+    </li>    
+    
+
+
+  <li>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title">Deep Learning Driven Simulations of Boundary Layer Cloud over the US Southern Great Plains</div>
+                <div class="author"><strong>Su, T.*</strong> and Zhang, Y.</div>
+                <div class="periodical"><em>Geoscientific Model Development</em> (Under Discussion) </div>
+                <div class="links">
+                    <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                    <a href="https://gmd.copernicus.org/preprints/gmd-2024-25/" class="btn btn-sm z-depth-0 html-pdf-btn" role="button" target="_blank">HTML</a>
+                    <a href="https://gmd.copernicus.org/preprints/gmd-2024-25/gmd-2024-25.pdf" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">PDF</a>
+                </div>
+                <div class="abstract hidden">
+                    <p>
+This study developed a deep learning model to simulate the complex dynamics of boundary layer clouds (BLCs) over the US Southern Great Plains. Using over twenty years of extensive observations from the Atmospheric Radiation Measurement program for training and validation, the model diagnoses the BLCs from the perspective of cloud-land coupling. Morning meteorological profiles set as the initial conditions and then identifying triggers for BLCs formation from surface meteorology. The deep learning model offer accurate simulation of the convection initiation and cloud base of BLCs. In comparison with reanalysis data (i.e., ERA-5 and MERRA-2), it provides a notable improvement in the vertical structure of low clouds from a climatological perspective. The deep learning model can serve as the cloud parameterization and extend to analyzing stratiform and cumulus clouds within reanalysis frameworks, offering insights into improving the simulation of BLCs. By quantifying biases due to various meteorological factors and parameterizations, this deep learning-driven approach bridges the observational-modeling divide. Surface humidity and parameterization emerge as key limiting factors to affect the representation of BLCs in the reanalysis data. This deep learning approach holds promise for improving the convection parameterization and advancing model diagnostics in weather forecasting and climate modelling.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+
+
+  <li>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title">Refining Planetary Boundary Layer Height Retrievals from Micropulse-lidar at Multiple ARM Sites Around the World</div>
+                <div class="author">Roldán, N.<strong>#</strong>, <strong>Su, T.*</strong> and Li, Z.</div>
+                <div class="periodical"><em>Journal of Geophysical Research: Atmospheres</em> (Under Revision with Positive Reviews) </div>
+            </div>
+        </div>
+    </li>
+
+    <li>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title">First assessment of cloud-land coupling in LASSO Large-Eddy Simulations</div>
+                <div class="author">Zhang, H., <strong>Su, T.*</strong> <em>et al.</em></div>
+                <div class="periodical"><em>Geophysical Research Letters</em> (Under Revision) </div>
+            </div>
+        </div>
+    </li>
+    
+<h4 class="year">2024</h4>
+    
+
+
+
+  <li>
+        <div class="row">
+            <div class="col-sm-12">
+             <a class="title" href="https://www.science.org/doi/10.1126/sciadv.adl5044" 
+               target="_blank" 
+               rel="noopener noreferrer">
+Constraining Effects of Aerosol-Cloud Interaction by Accounting for Coupling between Cloud and Land Surface
+             </a>     
+                <div class="author"><strong>Su, T.*</strong>, Li, Z., Roldán, N., Luan, Q., Yu, F.</div>
+                <div class="periodical"><em>Science Advances</em> </div>
+                <div class="links">
+                    <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                    <a href="https://www.science.org/doi/epdf/10.1126/sciadv.adl5044" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">PDF</a>
+                       <a href="https://webhost.essic.umd.edu/aerosols-affect-climate-more-than-we-think/" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">UMD Highlight</a>
+                       <a href="https://asr.science.energy.gov/science/highlights/1246" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">ASR Highlight</a>
+
+                </div>
+                <div class="abstract hidden">
+                    <p>
+                        Aerosol-cloud interactions (ACIs) are vital for regulating Earth’s climate by influencing energy and water cycles. Yet, effects of ACI bear large uncertainties, evidenced by systematic discrepancies between observed and modeled estimates. This study quantifies a major bias in ACI determinations, stemming from conventional surface or space measurements that fail to capture aerosol at the cloud level unless the cloud is coupled with land surface. We introduce an advanced approach to determine radiative forcing of ACI by accounting for cloud-surface coupling. By integrating field observations, satellite data, and model simulations, this approach reveals a drastic alteration in aerosol vertical transport and ACI effects caused by cloud coupling. In coupled regimes, aerosols enhance cloud droplet number concentration across the boundary layer more homogeneously than in decoupled conditions, under which aerosols from the free atmosphere predominantly affect cloud properties, leading to marked cooling effects. Our findings spotlight cloud-surface coupling as a key factor for ACI quantification, hinting at potential underassessments in traditional estimates.
+                   
+                    </p>    
+                        
+                </div>
+            </div>
+        </div>
+    </li>
+
+    
+  <li>
+        <div class="row">
+            <div class="col-sm-12">
+
+             <a class="title" href="https://acp.copernicus.org/articles/24/6477/2024/" 
+               target="_blank" 
+               rel="noopener noreferrer">
+Deep-Learning-derived Planetary Boundary Layer Height from Conventional Meteorological Measurements
+             </a> 
+                <div class="author"><strong>Su, T.*</strong> and Zhang, Y.</div>
+                <div class="periodical"><em>Atmospheric Chemistry and Physics</em> </div>
+                <div class="links">
+                    <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                    <a href="https://acp.copernicus.org/articles/24/6477/2024/acp-24-6477-2024.pdf" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">PDF</a>
+   
+                </div>
+                <div class="abstract hidden">
+                    <p>
+The planetary boundary layer (PBL) height (PBLH) is an important parameter for various meteorological and climate studies. This study presents a multi-structure deep neural network (DNN) model, designed to estimate PBLH by integrating morning temperature profiles with surface meteorological observations. The DNN model is developed by leveraging a rich dataset of PBLH derived from long-standing radiosonde records and augmented with high-resolution micro-pulse lidar and Doppler lidar observations. We access the performance of the DNN with an ensemble of ten members, each featuring distinct hidden layer structures, which collectively yield a robust 27-year PBLH dataset over the Southern Great Plains from 1994 to 2020. The influence of various meteorological factors on PBLH is rigorously analyzed through the importance test. Moreover, the DNN model's accuracy is evaluated against radiosonde observations and juxtaposed with conventional remote sensing methodologies, including Doppler lidar, ceilometer, Raman lidar, and Micro-pulse lidar. The DNN model exhibits reliable performance across diverse conditions and demonstrates lower biases relative to remote sensing methods. In addition, the DNN model, originally trained over a plain region, demonstrates remarkable adaptability when applied to the heterogeneous terrains and climates encountered during the GoAmazon (Tropical Rainforest) and CACTI (Middle Latitude Mountain) campaigns. These findings demonstrate the effectiveness of deep learning models in estimating PBLH, enhancing our understanding of boundary layer dynamics with implications for enhancing the representation of PBL in weather forecasting and climate modeling.                    </p>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+
+    
+  <li>
+        <div class="row">
+            <div class="col-sm-12">
+             <a class="title" href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023GL108090" 
+               target="_blank" 
+               rel="noopener noreferrer">
+Observation and Reanalysis Derived Relationships Between Cloud and Land Surface Fluxes Across Cumulus and Stratiform Coupling Over the Southern Great Plains
+             </a>     
+                <div class="author"><strong>Su, T.*</strong>, Li, Z.*, Zhang, Y., Zheng, Y. and Zhang, H.</div>
+                <div class="periodical"><em>Geophysical Research Letters</em> </div>
+                <div class="links">
+                    <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                    <a href="https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2023GL108090" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">PDF</a>
+                    <a href="https://asr.science.energy.gov/science/highlights/1233" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">Highlight</a>
+                </div>
+                <div class="abstract hidden">
+                    <p>Understanding interactions between low clouds and land surface fluxes is critical to comprehending Earth’s energy balance, yet their relationships remain elusive, with discrepancies between observations and modeling. Leveraging long-term field observations over the Southern Great Plains, this investigation revealed that cloud-land interactions are closely connected to cloud-land coupling regimes. Observational evidence supports a dual-mode interaction: coupled stratiform clouds predominate in low sensible heat scenarios, while coupled cumulus clouds dominate in high sensible heat scenarios. Reanalysis datasets, MERRA-2 and ERA-5, obscure this dichotomy owing to a shortfall in representing boundary layer clouds, especially in capturing the initiation of coupled cumulus in high sensible heat scenarios. ERA-5 demonstrates a relatively closer alignment with observational data, particularly in capturing relationships between cloud frequency and latent heat, markedly outperforming MERRA-2. Our study underscores the necessity of distinguishing different cloud coupling regimes, essential to the understanding of their interactions for advancing land-atmosphere interactions.</p>
+                </div>
+            </div>
+        </div>
+    </li>
+    
+    <li>
+        <div class="row">
+            <div class="col-sm-12">
+            <a class="title" href="https://eos.org/science-updates/decoding-the-dialogue-between-clouds-and-land" 
+               target="_blank" 
+               rel="noopener noreferrer">
+               Decoding the dialogue between clouds and land
+            </a>
+                <div class="author"><strong>Su, T.*</strong> and Li, Z.</div>
+                <div class="periodical"><em>Eos</em></div>
+                <div class="links">
+                    <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                    <a href="/assets/pdf/Eos.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">PDF</a>
+                    <a href="https://asr.science.energy.gov/science/highlights/1226" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">Highlight</a>
+                    <a href="https://www.arm.gov/news/facility/post/97313" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">News</a>
+
+                </div>
+                <div class="abstract hidden">
+                    <p>New research is challenging established assumptions about how clouds form and interact with Earth’s surface. One result may be better weather forecasts.</p>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+    <li>
+        <div class="row">
+            <div class="col-sm-12">
+                             <a class="title" href="https://pubs.aip.org/aip/acp/article/2988/1/080004/3022300" 
+               target="_blank" 
+               rel="noopener noreferrer">
+Revealing the coupling process between aerosol, PBL, and cloud: Identification and mechanisms             </a>  
+                <div class="author">Li, Z.* and <strong>Su, T.*</strong>  </div>
+                <div class="periodical"><em>AIP Conference Proceedings</em></div>
+                <div class="links">
+                    <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                    <a href="/assets/pdf/080004_1_5.0182770.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">PDF</a>
+                </div>
+                <div class="abstract hidden">
+                    <p>Aerosols are mainly situated within the planetary boundary layer (PBL), affecting radiation, atmospheric stability, clouds, and precipitation. Aerosols, the PBL, and clouds may be coupled, influencing each other’s development and further influencing meteorology and the atmospheric environment. The impacts and their interactions may be significant enough to affect weather and climate, depending on their states and coupling relationships. This study aims at understanding the fundamental processes governing the interactions between boundary-layer clouds and aerosols. By examining the development of boundary-layer clouds and aerosol transport in the context of surface-cloud coupling, we attempt to advance the understanding of their impacts on the development of convective clouds. To this end, we have developed algorithms for identifying the PBL height and cloud-surface coupling and have used them to investigate the fundamental mechanisms of aerosol-PBL-cloud coupling and their interactions, furthering our understanding of their joint effects on the development of convective clouds and air quality.
+</p>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+    <li>
+        <div class="row">
+            <div class="col-sm-12">
+<a class="title" href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JD040641?af=R" 
+ target="_blank" rel="noopener noreferrer">
+Preference of Afternoon Precipitation Over Dry Soil in the North China Plain During Warm Seasons             
+</a>  
+                <div class="author">Li, S., Guo, J., Zhang, X., Tong, B., <strong>Su, T.</strong>, Wei, J., Li, Z.  </div>
+                <div class="periodical"><em>Journal of Geophysical Research: Atmospheres</em></div>
+                <div class="links">
+                    <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                </div>
+                <div class="abstract hidden">
+                    <p>
+                        The influence of soil moisture (SM) on atmospheric precipitation has been extensively studied, but few of these studies have considered the role of land-atmosphere (L-A) coupling in afternoon precipitation events (APEs) at a sub-daily timescale. Here, using in-situ observations and reanalysis data sets, we investigated the effect of the soil moisture anomaly (SMA) on warm seasons' afternoon precipitation in the North China Plain (NCP), identified as a strong L-A coupling region. APEs were separated from all precipitation events in the NCP during the warm seasons of 2010–2019. It follows from a comparative analysis that an APE is more likely to be initiated on drier soil, which has little dependence on the thresholds used for identifying an APE. However, no affirmative relationship is found between precipitation amount in the first hour of an APE (APE1hour) and the SMA. Further analyses indicate that larger amounts of APE1hour result from higher convective available potential energy (CAPE), higher moist static energy (MSE), or weaker vertical shear of horizontal wind. When considering the joint effects of SMA and atmospheric variables, APEs tend to occur on drier (wetter) soil with lower (higher) lower-tropospheric stability, CAPE, or MSE. This study highlights the significant roles of L-A interactions on local atmospheric precipitation, especially the joint roles of SM and atmospheric variables on precipitation.
+</p>
+
+               </div>
+            </div>
+        </div>
+    </li>
+    
+<h4 class="year">2023</h4>
+    <li>
+        <div class="row">
+            <div class="col-sm-12">
+<a class="title" href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022GL102256" 
+ target="_blank" rel="noopener noreferrer">
+Cloud-surface coupling alters the morning transition from stable to unstable boundary layer             
+</a>     
+                <div class="author"><strong>Su, T.*</strong>, Li, Z.* and Zheng, Y.</div>
+                <div class="periodical"><em>Geophys. Res. Lett. </em></div>
+                <div class="links">
+                    <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                    <a href="/assets/pdf/Cloud%20Surface%20Coupling%20Alters%20the%20Morning%20Transition%20From%20Stable%20to%20Unstable.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">PDF</a>
+                    <a href="https://asr.science.energy.gov/science/highlights/1170" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">Highlight</a>
+                
+                </div>
+                <div class="abstract hidden">
+                    <p>Due to surface heating, the morning boundary layer transits from stable to neutral or convective conditions, exerting critical influences on low tropospheric thermodynamics. Low clouds closely interact with the boundary layer development, yet their interactions bear considerable uncertainties. Our study reveals that cloud-surface coupling alters the morning transition from stable to unstable boundary layer and thus notably affects the diurnal variation of the boundary layer. Specifically, due to the reduction in surface fluxes, decoupled clouds can delay the process of eroding nocturnal inversion by 0.8-hr and even prevent the transition of the boundary layer from happening for 12% of decoupled cases, keeping the boundary layer in a stable state during the noontime. On the other hand, when clouds are coupled with the surface, cloud-top radiative cooling can directly cool the upper boundary layer to facilitate sub-cloud convection, leading to an unstable boundary layer in the earlier morning.
+</p>
+                </div>
+            </div>
+        </div>
+    </li>
+
+    <li>
+        <div class="row">
+            <div class="col-sm-12">
+<a class="title" href="https://www.sciencedirect.com/science/article/pii/S2590332223002397" 
+ target="_blank" rel="noopener noreferrer">
+Black-carbon-induced regime transition of boundary layer development strongly amplifies severe haze
+</a> 
+                <div class="author">Wang, J., Su, H., Wei, C., Zheng, G., Wang, J., <strong>Su, T.</strong> <em>et al.</em></div>
+                <div class="periodical"><em>One Earth</em></div>
+                <div class="links">
+                    <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                </div>
+                <div class="abstract hidden">
+                    <p>Black-carbon (BC) aerosol can strongly influence planetary boundary layer (PBL) development and thus severe haze formation, but its distinct role compared with scattering aerosols is not yet fully understood. Here, combining numerical simulation and field observation, we found a “tipping point,” where the daily maximum PBL height decreases abruptly when exceeding a critical threshold of aerosol optical depth (AOD), due to a BC-induced decoupling of mixing zones. Because the threshold AOD decreases with increasing BC mass fraction, our results suggest that the abrupt transition of PBL development to adverse conditions can be avoided by reducing the AOD below the threshold but can be avoided more efficiently by reducing the BC mass fraction to increase the threshold (e.g., up to four to six times more effective in extreme haze events in Beijing). To achieve co-benefits for air quality and climate change, our findings clearly demonstrate that high priority should be given to controlling BC emissions.
+</p>
+                </div>
+            </div>
+        </div>
+    </li>
+
+    <li>
+        <div class="row">
+            <div class="col-sm-12">
+<a class="title" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JD037709" 
+ target="_blank" rel="noopener noreferrer">
+The Impact of Urbanization on Mesoscale Convective Systems in the Yangtze River Delta Region of China: Insights Gained From Observations and Modeling
+</a>
+                
+                <div class="author">Xian, T., Guo, J., Zhao, R., <strong>Su, T.</strong> and Li, Z.</div>
+                <div class="periodical"><em>Journal of Geophysical Research: Atmospheres</em></div>
+                <div class="links">
+                    <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                </div>
+                <div class="abstract hidden">
+                    <p>Urbanization is an important factor that may influence the formation and development of clouds and precipitation. In this study, we focus on studying the influence of urbanization on mesoscale convective systems (MCS) over the Yangtze River Delta region in China under different synoptic conditions using a combination of radiosonde, meteorological station, and satellite observations. It demonstrates that synoptic forcing can be used to distinguish the effect of land cover and land use on MCS. When the synoptic-scale forcing is weak, the urban heat island (UHI) is the main factor affecting the vertical development of clouds. The UHI decreases atmospheric stability and enhances horizontal convergence, invigorating clouds over and downwind of cities. On the other hand, when strong synoptic-scale forcing is present, buildings in cities cause clouds to bifurcate upwind of cities, moving around them, primarily through their dynamic effects. The heights of cloud tops in central and downwind parts of cities thus drop. Using the Weather Research and Forecasting model simulations of different atmospheric forcings also demonstrate similar patterns around major urban areas. The joint analyses of observations and model simulations provide new insights into the net effects of urbanization on cloud systems.
+
+                   </p>
+                </div>
+            </div>
+        </div>
+    </li>
+    
+<h4 class="year">2022</h4>
+    <li>
+        <div class="row">
+            <div class="col-sm-12">
+<a class="title" href="https://www.nature.com/articles/s41612-022-00283-1" 
+ target="_blank" rel="noopener noreferrer">
+Aerosol-boundary layer interaction modulated entrainment process</a>
+                
+                <div class="author"><strong>Su, T.*</strong> <em>et al</em></div>
+                <div class="periodical"><em>npj Climate and Atmospheric Science </em></div>
+                <div class="links">
+                    <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                    <a href="/assets/pdf/Aerosol-boundary%20layer%20interaction%20modulated%20entrainment%20process.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">PDF</a>
+                    <a href="https://asr.science.energy.gov/science/highlights/1158" class="btn btn-sm z-depth-0 html-pdf-btn" role="button" target="_blank">Highlight</a>
+
+                </div>
+                <div class="abstract hidden">
+                    <p>Aerosol-boundary layer interactions play an important role in affecting atmospheric thermodynamics and air pollution. As a key factor in dictating the development of the boundary layer, the entrainment process in the context of aerosol-boundary layer interactions is still poorly understood. Using comprehensive field observations made at a superstation in Beijing, we gain insight into the response of the entrainment process to aerosols. We found that high aerosol loading can significantly suppress the entrainment rate, breaking the conventional linear relationship between sensible heat fluxes and entrainment fluxes. Related to aerosol vertical distributions, aerosol heating effects can alter vertical heat fluxes, leading to a strong interaction between aerosols and the entrainment process in the upper boundary layer. Such aerosol-entrainment coupling can inhibit boundary layer development and explains the great sensitivity of observed entrainment rates to aerosols than can traditional calculations. The notable impact of aerosols on the entrainment process raises holistic thinking about the dynamic framework of the boundary layer in a polluted atmosphere, which may have a significant bearing on the dispersion of air pollutants and the land-atmosphere coupling.
+</p>
+               </div>
+            </div>
+        </div>
+    </li>
+ </li>
+
+     <li>
+        <div class="row">
+            <div class="col-sm-12">
+
+   <a class="title" href="https://acp.copernicus.org/articles/22/1453/2022/" 
+ target="_blank" rel="noopener noreferrer">
+Methodology to determine the coupling of continental clouds with surface and boundary layer height under cloudy conditions from lidar and meteorological data</a>
+             
+                <div class="author"><strong>Su, T.*</strong>, Zheng, Y. and Li, Z.*</div>
+                <div class="periodical"><em>Atmos. Chem. Phys. </em> </div>
+                <div class="links">
+                    <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                    <a href="/assets/pdf/Methodology%20to%20determine%20the%20coupling%20of%20continental%20clouds%20with%20surface%20and%20boundary%20layer%20height%20under%20cloudy%20conditions%20from%20lidar%20and%20meteorological%20data.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">PDF</a>
+            <a href="/assets/pdf/doe_highlight.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button" target="_blank">Highlight</a>
+      
+                </div>
+                <div class="abstract hidden">
+                    <p>The states of coupling between clouds and surface or boundary layer have been investigated much more extensively for marine stratocumulus clouds than for continental low clouds, partly due to more complex thermodynamic structures over land. A manifestation is a lack of robust remote sensing methods to identify coupled and decoupled clouds over land. Following the idea for determining cloud coupling over the ocean, we have generalized the concept of coupling and decoupling to low clouds over land, based on potential temperature profiles. Furthermore, by using ample measurements from lidar and a suite of surface meteorological instruments at the U.S. Department of Energy's Atmospheric Radiation Measurement Program's Southern Great Plains site from 1998 to 2019, we have developed a method to simultaneously retrieve the planetary boundary layer (PBL) height (PBLH) and coupled states under cloudy conditions during the daytime. The new lidar-based method relies on the PBLH, the lifted condensation level, and the cloud base to diagnose the cloud coupling. The coupled states derived from this method are highly consistent with those derived from radiosondes. Retrieving the PBLH under cloudy conditions, which has been a persistent problem in lidar remote sensing, is resolved in this study. Our method can lead to high-quality retrievals of the PBLH under cloudy conditions and the determination of cloud coupling states. With the new method, we find that coupled clouds are sensitive to changes in the PBL with a strong diurnal cycle, whereas decoupled clouds and the PBL are weakly related. Since coupled and decoupled clouds have distinct features, our new method offers an advanced tool to separately investigate them in climate systems.
+
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </li>
+
+     <li>
+        <div class="row">
+            <div class="col-sm-12">
+   <a class="title" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JD036891" 
+ target="_blank" rel="noopener noreferrer">
+Differentiating the contributions of particle concentration, humidity, and hygroscopicity to aerosol light scattering at three sites in China</a>
+
+                <div class="author">Jin, X., Li, Z., Wu, T., Wang, Y., <strong>Su, T.</strong> <em>et al</em></div>
+                <div class="periodical"><em>Journal of Geophysical Research: Atmospheres </em></div>
+                <div class="links">
+                    <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                </div>
+                <div class="abstract hidden">
+                    <p>The scattering of light by aerosol particles dictates atmospheric visibility, which is a straightforward indicator of air quality. It is affected by numerous factors, such as particle number size distribution, particle mass concentration (PM2.5), ambient relative humidity (RH), and chemical composition. The latter two factors jointly influence the aerosol liquid water content (ALWC). Here, the particle backscattering coefficient (βp) under ambient RH conditions is investigated to differentiate and quantify the contributions of aerosol properties and meteorology using comprehensive observational datasets acquired at three megacities in China, that is, Beijing (BJ), Nanjing (NJ), and Guangzhou (GZ). Overall, the temporal variations in βp under ambient RH conditions are consistent with those in ALWC at the three sites. The PM2.5 in BJ is systematically higher than in NJ and GZ, while ambient RH and aerosol hygroscopicity in NJ are much higher than in BJ and GZ. Notable differences in the variations of βp with related factors at the three sites are demonstrated. βp is more sensitive to particle hygroscopicity and mass in NJ and ambient RH in BJ. The relative contributions of these factors to βp at the three sites under different pollution conditions are differentiated and quantified. The factor with the largest impact on the variability in βp shifts from particle mass to ambient RH as air quality deteriorated to heavy pollution in BJ. The opposite is true in NJ. In GZ, the contributions of these factors to changes in βp under different pollution conditions are similar, both dominated by PM2.5.
+</p>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+     <li>
+        <div class="row">
+            <div class="col-sm-12">
+   <a class="title" href="https://www.sciencedirect.com/science/article/pii/S0048969721050853?casa_token=tVnD28DfdygAAAAA:K_-1wSmB8i3j_p4PSYe5_uIp5k9hNqVz-VO0JFt599HRoZISHiUnKSFgRhvGCCIPwjWOwwyeyHc" 
+ target="_blank" rel="noopener noreferrer">
+The different sensitivities of aerosol optical properties to particle concentration, humidity, and hygroscopicity between the surface level and the upper boundary layer in Guangzhou, China</a>
+                
+                <div class="author">Jin, X., Li, Z., Wu, T., Wang, Y., Cheng, Y., <strong>Su, T.</strong> <em>et al</em></div>
+                <div class="periodical"><em>Science of the Total Environment </em></div>
+                <div class="links">
+                    <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                </div>
+                <div class="abstract hidden">
+                    <p>This study investigates the impact of aerosol liquid water content (ALWC) and related factors, i.e., relative humidity (RH), aerosol mass concentration (PM2.5), and aerosol hygroscopicity, on aerosol optical properties, based on field measurements made in the Pearl River Delta (PRD) region of China at the surface (1 November 2019 to 21 January 2020) and in the upper boundary layer (the 532-m Guangzhou tower from 1 February to 21 March 2020). In general, temporal variations in the ambient aerosol backscattering coefficient (βp) and ALWC followed each other. However, the surface βp and 532-m βp had generally opposite diurnal variation patterns, caused by dramatic differences in PM2.5 and ambient RH between the surface and the upper boundary layer. The ambient 532-m RH was systematically higher than the surface RH, with the latter having a much pronounced diurnal cycle than the former. The surface PM2.5 concentration was systematically higher than the PM2.5 concentration at 532 m, and their diurnal cycle patterns were overall opposite. These dramatic differences reveal that the atmospheric variables, i.e., ambient RH and the PM2.5 concentration in the upper boundary layer, cannot be directly represented by the same variables at the surface. Vertical variability should be considered. Clear differences in the sensitivities of aerosol light scattering to ambient RH, PM2.5, and aerosol hygroscopicity between the two levels were found and examined. Aerosol chemical composition played a minor role in causing the differences between the two levels. In particular, βp was more sensitive to PM2.5 at the surface level but more to the ambient RH in the upper boundary layer. The larger contribution of aerosol loading to the variability in βp at the surface implies that local emission controls can decrease βp and further improve atmospheric visibility effectively at the surface during winter in the PRD region.
+</p>
+                </div>
+            </div>
+        </div>
+    </li>    
+
+
+<h4 class="year">2021</h4>
+     <li>
+        <div class="row">
+            <div class="col-sm-12">
+   <a class="title" href="https://journals.ametsoc.org/view/journals/atsc/78/12/JAS-D-21-0108.1.xml" 
+ target="_blank" rel="noopener noreferrer">
+Idealized large-eddy simulations of stratocumulus advecting over cold water. Part I: Boundary layer decoupling
+   </a>
+                
+                <div class="author">Zheng, Y., Zhang, H., Rosenfeld, D., Lee, S.S., <strong>Su, T.,</strong> and Li, Z.</div>
+                <div class="periodical"><em>Journal of the Atmospheric Sciences </em> </div>
+                <div class="links">
+                    <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                </div>
+                <div class="abstract hidden">
+                    <p>We explore the decoupling physics of a stratocumulus-topped boundary layer (STBL) moving over cooler water, a situation mimicking warm-air advection (WADV). We simulate an initially well-mixed STBL over a doubly periodic domain with the sea surface temperature decreasing linearly over time using the System for Atmospheric Modeling large-eddy model. Due to the surface cooling, the STBL becomes increasingly stably stratified, manifested as a near-surface temperature inversion topped by a well-mixed cloud-containing layer. Unlike the stably stratified STBL in cold-air advection (CADV) that is characterized by cumulus coupling, the stratocumulus deck in the WADV is unambiguously decoupled from the sea surface, manifested as weakly negative buoyancy flux throughout the subcloud layer. Without the influxes of buoyancy from the surface, the convective circulation in the well-mixed cloud-containing layer is driven by cloud-top radiative cooling. In such a regime, the downdrafts propel the circulation, in contrast to that in CADV regime for which the cumulus updrafts play a more determinant role. Such a contrast in convection regime explains the difference in many aspects of the STBLs including the entrainment rate, cloud homogeneity, vertical exchanges of heat and moisture, and lifetime of the stratocumulus deck, with the last being subject to a more thorough investigation in Part II. Finally, we investigate under what conditions a secondary stratus near the surface (or fog) can form in the WADV. We found that weaker subsidence favors the formation of fog whereas a more rapid surface cooling rate does not.
+</p>
+                </div>
+            </div>
+        </div>
+    </li>
+
+     <li>
+        <div class="row">
+            <div class="col-sm-12">
+   <a class="title" href="https://acp.copernicus.org/articles/21/17079/2021/" 
+ target="_blank" rel="noopener noreferrer">
+Investigation of near-global daytime boundary layer height using high-resolution radiosondes: first results and comparison with ERA5, MERRA-2, JRA-55, and NCEP-2 reanalyses
+   </a>                
+                <div class="author">Guo, J., Zhang, J., Yang, K., Liao, H., Zhang, S., Huang, K., Lv, Y., Shao, J., Yu, T., Tong, B., Li, J., <strong>Su, T.</strong> <em>et al</em>
+                <div class="periodical"><em>Atmospheric Chemistry and Physics </em> </div>
+                <div class="links">
+                    <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                </div>
+                <div class="abstract hidden">
+                    <p>The planetary boundary layer (PBL) governs the vertical transport of mass, momentum, and moisture between the surface and the free atmosphere, and thus the determination of PBL height (BLH) is recognized as crucial for air quality, weather, and climate analysis. Although reanalysis products can provide important insight into the global view of BLH in a seamless way, the BLH observed in situ on a global scale remains poorly understood due to the lack of high-resolution (1 or 2 s) radiosonde measurements. The present study attempts to establish a near-global BLH climatology at synoptic times (00:00 and 12:00 UTC) and in the daytime using high-resolution radiosonde measurements over 300 radiosonde sites worldwide for the period 2012 to 2019, which is then compared against the BLHs obtained from four reanalysis datasets, including ERA5, MERRA-2, JRA-55, and NCEP-2. The variations in daytime BLH exhibit large spatial and temporal dependence, and as a result the BLH maxima are generally discerned over the regions such as the western United States and western China, in which the balloon launch times mostly correspond to the afternoon. The diurnal variations in BLH are revealed with a peak at 17:00 local solar time (LST). The most promising reanalysis product is ERA5, which underestimates BLH by around 130 m as compared to radiosondes released during daytime. In addition, MERRA-2 is a well-established product and has an underestimation of around 160 m. JRA-55 and NCEP-2 might produce considerable additional uncertainties, with a much larger underestimation of up to 400 m. The largest bias in the reanalysis data appears over the western United States and western China, and it might be attributed to the maximal BLH in the afternoon when the PBL has risen. Statistical analyses further indicate that the biases of reanalysis BLH products are positively associated with orographic complexity, as well as the occurrence of static instability. To our best knowledge, this study presents the first near-global view of high-resolution radiosonde-derived boundary layer height and provides a quantitative assessment of the four frequently used reanalysis products.
+
+</p>
+                </div>
+            </div>
+        </div>
+    </li>
+
+<li>
+    <div class="row">
+        <div class="col-sm-12">
+
+     <a class="title" href="https://www.sciencedirect.com/science/article/pii/S0160412020322455" 
+ target="_blank" rel="noopener noreferrer">
+The ChinaHighPM10 dataset: generation, validation, and spatiotemporal variations from 2015 to 2019 across China
+     </a>              
+            <div class="author">Wei, J., Li, Z., Xue, W., Sun, L., Fan, T., Liu, L., <strong>Su, T.</strong>, and Cribb, M.</div>
+            <div class="periodical"><em>Environment International</em> </div>
+            <div class="links">
+                <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+            </div>
+            <div class="abstract hidden">
+                <p>
+
+Respirable particles with aerodynamic diameters ≤ 10 µm (PM10) have important impacts on the atmospheric environment and human health. Available PM10 datasets have coarse spatial resolutions, limiting their applications, especially at the city level. A tree-based ensemble learning model, which accounts for spatiotemporal information (i.e., space-time extremely randomized trees, denoted as the STET model), is designed to estimate near-surface PM10 concentrations. The 1-km resolution Multi-Angle Implementation of Atmospheric Correction (MAIAC) aerosol product and auxiliary factors, including meteorology, land-use cover, surface elevation, population distribution, and pollutant emissions, are used in the STET model to generate the high-resolution (1 km) and high-quality PM10 dataset for China (i.e., ChinaHighPM10) from 2015 to 2019. The product has an out-of-sample (out-of-station) cross-validation coefficient of determination (CV-R2) of 0.86 (0.82) and a root-mean-square error (RMSE) of 24.28 (27.07) μg/m3, outperforming most widely used models from previous related studies. High levels of PM10 concentration occurred in northwest China (e.g., the Tarim Basin) and the Northern China Plain. Overall, PM10 concentrations had a significant declining trend of 5.81 μg/m3 per year (p < 0.001) over the past five years in China, especially in three key urban agglomerations. The ChinaHighPM10 dataset is potentially useful for future small- and medium-scale air pollution studies by virtue of its higher spatial resolution and overall accuracy.
+
+
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</li>
+
+<li>
+    <div class="row">
+        <div class="col-sm-12">
+
+     <a class="title" href="https://www.sciencedirect.com/science/article/abs/pii/S0034425720305095" 
+ target="_blank" rel="noopener noreferrer">
+Reconstructing 1-kmresolution high-quality PM2.5 data records from 2000 to 2018 in China: spatiotemporal variations and policy implications
+     </a>            
+            <div class="author">Wei, J., Li, Z., Lyapustin, A., Sun, L., Peng, Y., Xue, W., <strong>Su, T.</strong>, and Cribb, M.</div>
+            <div class="periodical"><em>Remote Sensing of Environment</em> </div>
+            <div class="links">
+                <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+            </div>
+            <div class="abstract hidden">
+                <p>
+Exposure to fine particulate matter (PM2.5) can significantly harm human health and increase the risk of death. Satellite remote sensing allows for generating spatially continuous PM2.5 data, but current datasets have overall low accuracies with coarse spatial resolutions limited by data sources and models. Air pollution levels in China have experienced dramatic changes over the past couple of decades. However, country-wide ground-based PM2.5 records only date back to 2013. To reveal the spatiotemporal variations of PM2.5, long-term and high-spatial-resolution aerosol optical depths, generated by the Moderate Resolution Imaging Spectroradiometer (MODIS) Multi-Angle implementation of Atmospheric Correction (MAIAC) algorithm, were employed to estimate PM2.5 concentrations at a 1 km resolution using our proposed Space-Time Extra-Trees (STET) model. Our model can capture well variations in PM2.5 concentrations at different spatiotemporal scales, with higher accuracies (i.e., cross-validation coefficient of determination, CV-R2 = 0.86–0.90) and stronger predictive powers (i.e., R2 = 0.80–0.82) than previously reported. The resulting PM2.5 dataset for China (i.e., ChinaHighPM2.5) provides the longest record (i.e., 2000 to 2018) at a high spatial resolution of 1 km, enabling the study of PM2.5 variation patterns at different scales. In most places, PM2.5 concentrations showed increasing trends around 2007 and remained high until 2013, after which they declined substantially, thanks to a series of government actions combating air pollution in China.
+                </p>
+            </div>
+        </div>
+    </div>
+</li>
+    
+
+<h4 class="year">2020</h4>
+<li>
+    <div class="row">
+        <div class="col-sm-12">
+
+      <a class="title" href="https://www.sciencedirect.com/science/article/abs/pii/S0034425719305383" 
+ target="_blank" rel="noopener noreferrer">
+A new method to retrieve the diurnal variability of planetary boundary layer height from lidar under different thermodynamic stability conditions     </a>           
+            <div class="author"><strong>Su, T.</strong>, Li, Z. and Kahn, R.</div>
+            <div class="periodical"><em>Remote Sensing of Environment.</em></div>
+            <div class="links">
+                <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+            
+<a href="/assets/pdf/A%20new%20method%20to%20retrieve%20the%20diurnal%20variability%20of%20planetary%20boundary%20layer%20height%20from%20lidar%20under%20different%20thermodynamic%20stability%20conditions.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">PDF</a>    
+<a href="https://www.arm.gov/data/data-sources/pblht-206" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button">Dataset</a>    
+           
+            
+            </div>
+            <div class="abstract hidden">
+<p>
+ The planetary boundary layer height (PBLH) is an important parameter for understanding the accumulation of pollutants and the dynamics of the lower atmosphere. Lidar has been used for tracking the evolution of PBLH by using aerosol backscatter as a tracer, assuming aerosol is generally well-mixed in the PBL; however, the validity of this assumption actually varies with atmospheric stability. This is demonstrated here for stable boundary layers (SBL), neutral boundary layers (NBL), and convective boundary layers (CBL) using an 8-year dataset of micropulse lidar (MPL) and radiosonde (RS) measurements at the ARM Southern Great Plains, and MPL at the GSFC site. Due to weak thermal convection and complex aerosol stratification, traditional gradient and wavelet methods can have difficulty capturing the diurnal PBLH variations in the morning and forenoon, as well as under stable conditions generally. A new method is developed that combines lidar-measured aerosol backscatter with a stability dependent model of PBLH temporal variation (DTDS). The latter helps “recalibrate” the PBLH in the presence of a residual aerosol layer that does not change in harmony with PBL diurnal variation. The hybrid method offers significantly improved PBLH detection, with better correlation and smaller biases, under most thermodynamic conditions, especially for SBL and CBL. Relying on the physical process of PBL diurnal development, different schemes are developed for growing, maintenance, and decaying periods. Comprehensive evaluation of this new method shows much better tracking of diurnal PBLH variation and significantly smaller biases under various pollution levels.   
+</p>     
+            </div>       
+        </div>
+    </div>
+</li>
+
+
+    
+<li>
+    <div class="row">
+        <div class="col-sm-12">
+
+       <a class="title" href="https://acp.copernicus.org/articles/20/3713/2020/"
+ target="_blank" rel="noopener noreferrer">
+The significant impact of aerosols vertical structure on lower-atmosphere stability and its critical role in aerosol-PBL interaction     </a>           
+           
+            <div class="author"><strong>Su, T.</strong> <em>et al</em></div>
+            <div class="periodical"><em>Atmos. Chem. Phys.</em></div>
+            <div class="links">
+                <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                <a href="/assets/pdf/The%20significant%20impact%20of%20aerosol%20vertical%20structure%20on%20lower%20atmosphere%20stability%20and%20its%20critical%20role%20in%20aerosol%20planetary%20boundary%20layer%20(PBL)%20interactions.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button" target="_blank">pdf</a>
+                <a href="https://asr.science.energy.gov/science/highlights/919" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button" target="_blank">HIGHLIGHT</a>
+                            </div>
+            <div class="abstract hidden">
+
+<p>
+The aerosol–planetary boundary layer (PBL) interaction was proposed as an important mechanism to stabilize the atmosphere and exacerbate surface air pollution. Despite the tremendous progress made in understanding this process, its magnitude and significance still have large uncertainties and vary largely with aerosol distribution and meteorological conditions. In this study, we focus on the role of aerosol vertical distribution in thermodynamic stability and PBL development by jointly using micropulse lidar, sun photometer, and radiosonde measurements taken in Beijing. Despite the complexity of aerosol vertical distributions, cloud-free aerosol structures can be largely classified into three types: well-mixed, decreasing with height, and inverse structures. The aerosol–PBL relationship and diurnal cycles of the PBL height and PM2.5 associated with these different aerosol vertical structures show distinct characteristics. The vertical distribution of aerosol radiative forcing differs drastically among the three types, with strong heating in the lower, middle, and upper PBL, respectively. Such a discrepancy in the heating rate affects the atmospheric buoyancy and stability differently in the three distinct aerosol structures. Absorbing aerosols have a weaker effect of stabilizing the lower atmosphere under the decreasing structure than under the inverse structure. As a result, the aerosol–PBL interaction can be strengthened by the inverse aerosol structure and can be potentially neutralized by the decreasing structure. Moreover, aerosols can both enhance and suppress PBL stability, leading to both positive and negative feedback loops. This study attempts to improve our understanding of the aerosol–PBL interaction, showing the importance of the observational constraint of aerosol vertical distribution for simulating this interaction and consequent feedbacks.
+
+    
+</p>
+    </div>       
+        </div>
+    </div>
+</li>
+<li>
+    <div class="row">
+        <div class="col-sm-12">
+       <a class="title" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL090041"
+ target="_blank" rel="noopener noreferrer">
+Abnormally shallow boundary layer associated with severe air pollution during the COVID‐19 lockdown in China     </a>           
+            
+            <div class="author"><strong>Su, T.*</strong> <em>et al</em></div>
+            <div class="periodical"><em>Geophysical Research Letters.</em></div>
+            <div class="links">
+                <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                <a href="/assets/pdf/Abnormally%20shallow%20boundary%20layer%20associated%20with%20severe%20air%20pollution%20during%20the%20COVID19%20lockdown%20in%20China.pdf" class="btn btn-sm z-depth-0 html-pdf-btn" role="button" target="_blank">pdf</a>
+           
+            </div>
+            <div class="abstract hidden">
+
+<p>
+After the 2020 Lunar New Year, the Chinese government implemented a strict nationwide lockdown to inhibit the spread of the Coronavirus Disease 2019 (COVID-19). Despite the abrupt decreases in gaseous emissions caused by record-low anthropogenic activities, severe haze pollution occurred in northern China during the COVID lockdown. This paradox has attracted the attention of both the public and the scientific community. By analyzing comprehensive measurements of air pollutants, planetary boundary layer (PBL) height, and surface meteorology, we show that the severe air pollution episode over northern China coincided with the abnormally low PBL height, which had reduced by 45%, triggering strong aerosol-PBL interactions. After dynamical processes initiated the temperature inversion, the Beijing metropolitan area experienced a period with continuously shallow PBLs during the lockdown. This unprecedented event provided an experiment showcasing the role of meteorology, in particular aerosol-PBL interactions in affecting air quality.
+
+    
+</p>
+       </div>     
+        </div>
+    </div>
+</li>
+<li>
+    <div class="row">
+        <div class="col-sm-12">
+
+          <a class="title" href="https://www.sciencedirect.com/science/article/abs/pii/S0034425720304661"
+ target="_blank" rel="noopener noreferrer">
+Refining aerosol optical depth retrievals over land by constructing the relationship of spectral surface reflectances through deep learning: Application to Himawari-8     </a>           
+         
+            <div class="author"><strong>Su, T.*</strong>, Laszlo, I., Li, Z., Wei, J. and Kalluri, S.</div>
+            <div class="periodical"><em>Remote Sensing of Environment.</em></div>
+            <div class="links">
+                <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+      <a href="/assets/pdf/Refining%20aerosol%20optical%20depth%20retrievals%20over%20land%20by%20constructing%20the%20relationship%20of%20spectral%20surface%20reflectances%20through%20deep%20learning%20Application%20to%20Himawari-8.pdf" class="btn btn-sm z-depth-0 html-pdf-btn" role="button" target="_blank">pdf</a>
+         <a href="https://news.essic.umd.edu/american-meteorological-society-awards-tianning-su/" class="btn btn-sm z-depth-0 html-pdf-btn" role="button" target="_blank">HIGHLIGHT</a>
+  
+            </div>
+            <div class="abstract hidden">
+
+<p>
+ For the past two decades, quantitative retrievals of aerosol optical depth (AOD) have been made from both geostationary and polar-orbiting satellites, and the results have been widely used in numerous studies. Despite the progress made in improving the accuracy of AOD retrievals, there are still major challenges, especially over land. A notable one for the so-called Dark-Target (DT) algorithms is building the surface reflectance (SR) relationships (SRR) to derive SR in the visible channels from SR in the short-wave infrared (SWIR) channel, mainly because these relationships are strongly subjected to entangled factors (e.g., viewing geometry, surface type, and vegetation state). In this study, we examine the benefits of a new method for deriving the SRR using deep learning techniques. The SRR constructed by the deep neural network (DNN) considers multiple related inputs, such as the SWIR normalized difference vegetation index (NDVISWIR), viewing geometry, and seasonality, among others. We then incorporate the DNN-constrained SRR into a DT algorithm developed at NOAA/STAR to retrieve AOD from the Advanced Himawari Instrument (AHI) onboard the new generation of geostationary satellites, Himawari-8. The revised DT algorithm with the deep learning technique (DTDL) demonstrates improved performance over the study region (95–125°E, 18–30°N, a portion of the AHI full disk), as attested by significantly reduced random noise, especially for low NDVISWIR and high surface albedo cases. Robust independent tests indicate that this algorithm can be applied to untrained regions, not only to those used in training. The method directly benefits the algorithm development for Himawari-8 and can also be adopted for other geostationary or polar-orbiting satellites. Our study illustrates how artificial intelligence could significantly improve AOD retrievals from multi-spectral satellite observations following this new approach.
+
+   
+</p>
+        </div>    
+        </div>
+    </div>
+</li>
+
+<li>
+    <div class="row">
+        <div class="col-sm-12">
+
+             <a class="title" href="https://journals.ametsoc.org/view/journals/clim/33/21/jcliD190278.xml"
+ target="_blank" rel="noopener noreferrer">
+The climatology of lower tropospheric temperature inversions in China from radiosonde measurements: roles of black carbon, local meteorology, and large-scale subsidence     </a>           
+         
+            <div class="author">Guo, J., Chen, X., <strong>Su, T.</strong> <em>et al</em>.</div>
+            <div class="periodical"><em>Journal of Climate</em></div>
+            <div class="links">
+                <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+            </div>
+            <div class="abstract hidden">
+
+<p>
+The variability of the lower tropospheric temperature inversion (TI) across China remains poorly understood. Using seven years’ worth of high-resolution radiosonde measurements at 120 sites, we compile the climatology of lower tropospheric TI in terms of frequency, intensity, and depth during the period from 2011 to 2017. The TI generally exhibits strong seasonal and geographic dependencies. Particularly, the TI frequency is found to be high in winter and low in summer, likely due to the strong aerosol radiative effect in winter. The frequency of the surface-based inversion (SBI) exhibits a “west low, east high” pattern at 0800 Beijing time (BJT), which then switches to “west high, east low” at 2000 BJT. Both the summertime SBI and elevated inversion (EI) reach a peak at 0800 BJT and a trough at 1400 BJT. Interestingly, the maximum wintertime EI frequency occurs over Southeast China (SEC) rather than over the North China Plain (NCP), likely attributable to the combination of the heating effect of black carbon (BC) originating from the NCP, along with the strong subsidence and trade inversion in SEC. Correlation analyses between local meteorology and TI indicate that larger lower tropospheric stability (LTS) favors more frequent and stronger TIs, whereas the stronger EI under smaller LTS conditions (unstable atmosphere) is more associated with subsidence rather than BC. Overall, the spatial pattern of the lower tropospheric TI and its variability in China are mainly controlled by three factors: local meteorology, large-scale subsidence, and BC-induced heating. These findings help shed some light on the magnitude, spatial distribution, and underlying mechanisms of the lower tropospheric TI variation in China.
+
+    
+</p>
+       </div>     
+        </div>
+    </div>
+</li>
+    
+<li>
+    <div class="row">
+        <div class="col-sm-12">
+
+              <a class="title" href="https://acp.copernicus.org/articles/20/6479/2020/"
+ target="_blank" rel="noopener noreferrer">
+The mechanisms and seasonal differences of the impact of aerosols on daytime surface urban heat island 
+                </a>           
+           
+            <div class="author">Han, W., Li, Z., Wu, F., Zhang, Y., Guo, J., <strong>Su, T.</strong> <em>et al</em>.</div>
+            <div class="periodical"><em>Atmos. Chem. Phys.</em></div>
+            <div class="links">
+                <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+            </div>
+            <div class="abstract hidden">
+
+<p>
+The urban heat island intensity (UHII) is the temperature difference between urban areas and their rural surroundings. It is commonly attributed to changes in the underlying surface structure caused by urbanization. Air pollution caused by aerosol particles can affect the UHII through changing (1) the surface energy balance by the aerosol radiative effect (ARE) and (2) planetary-boundary-layer (PBL) stability and airflow intensity by modifying thermodynamic structure, which is referred to as the aerosol dynamic effect (ADE). By analyzing satellite data and ground-based observations collected from 2001 to 2010 at 35 cities in China and using the WRF-Chem model, we find that the impact of aerosols on UHII differs considerably: reducing the UHII in summer but increasing the UHII in winter. This seasonal contrast is proposed to be caused by the different strengths of the ARE and ADE between summer and winter. In summer, the ARE on UHII is dominant over the ADE, cooling down surface temperature more strongly in urban areas than in rural areas because of much higher aerosol loading, and offsets the urban heating, therefore weakening UHII. In winter, however, the ADE is more dominant, because aerosols stabilize the PBL more in the polluted condition, weakening the near-surface heat transport over urban areas in both vertical and horizontal directions. This means that the heat accumulated in urban areas is dispersed less effectively, and thus the UHII is enhanced. These findings shed new light on the impact of the interaction between urbanization-induced surface changes and air pollution on urban climate.
+
+    
+</p>
+          </div>  
+        </div>
+    </div>
+</li>
+<li>
+    <div class="row">
+        <div class="col-sm-12">
+
+              <a class="title" href="https://www.mdpi.com/2072-4292/12/14/2320"
+ target="_blank" rel="noopener noreferrer">
+The Urban–Rural Heterogeneity of Air Pollution in 35 Metropolitan Regions across China 
+                </a>               
+            <div class="author">Han, W., Li, Z., Guo, J., <strong>Su, T.</strong>, Chen, T., Wei, J. and Cribb, M.</div>
+            <div class="periodical"><em>Remote Sensing</em></div>
+            <div class="links">
+                <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+            </div>
+            <div class="abstract hidden">
+
+<p>
+Urbanization and air pollution are major anthropogenic impacts on Earth’s environment, weather, and climate. Each has been studied extensively, but their interactions have not. Urbanization leads to a dramatic variation in the spatial distribution of air pollution (fine particles) by altering surface properties and boundary-layer micrometeorology, but it remains unclear, especially between the centers and suburbs of metropolitan regions. Here, we investigated the spatial variation, or inhomogeneity, of air quality in urban and rural areas of 35 major metropolitan regions across China using four different long-term observational datasets from both ground-based and space-borne observations during the period 2001–2015. In general, air pollution in summer in urban areas is more serious than in rural areas. However, it is more homogeneously polluted, and also more severely polluted in winter than that in summer. Four factors are found to play roles in the spatial inhomogeneity of air pollution between urban and rural areas and their seasonal differences: (1) the urban–rural difference in emissions in summer is slightly larger than in winter; (2) urban structures have a more obvious association with the spatial distribution of aerosols in summer; (3) the wind speed, topography, and different reductions in the planetary boundary layer height from clean to polluted conditions have different effects on the density of pollutants in different seasons; and (4) relative humidity can play an important role in affecting the spatial inhomogeneity of air pollution despite the large uncertainties.
+    
+</p>
+
+            </div>
+        </div>
+    </div>
+</li>
+
+<h4 class="year">2019</h4>
+<li>
+    <div class="row">
+        <div class="col-sm-12">
+
+              <a class="title" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019GL085442"
+ target="_blank" rel="noopener noreferrer">
+Declining Summertime Local‐Scale Precipitation Frequency Over China and the United States, 1981-2012: The Disparate Roles of Aerosols 
+                </a>   
+            
+            <div class="author">Guo, J. +*, <strong>Su, T.+*</strong> . <em>et al</em>.</div>
+            <div class="periodical"><em>Geophys. Res. Lett.</em></div>
+            <div class="links">
+                <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                <a href="/assets/pdf/Declining%20Summertime%20Local%20Scale%20Precipitation%20Frequency%20Over%20China%20and%20the.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button" target="_blank">pdf</a>
+            </div>
+            <div class="abstract hidden">
+
+<p>
+The local-scale precipitation (LSP) is mainly driven by thermal convection. Here we reveal a decreasing trend in the summertime LSP frequency over both China and the United States by utilizing the hourly rain gauge data from 1981 to 2012. The contrasting aerosol trend likely contributes to this same declining trend of LSP in both countries. As aerosol optical depth (AOD) goes beyond the turning zone of 0.25–0.30, the impact of aerosol on precipitation changes from invigoration to suppression. The mean AOD is generally less and larger than this range and of opposite trends in China and United States, respectively, which likely accounts for the same declining trend of LSP hours in the two countries. The observed boomerang shape points to the importance of aerosol loading, which matters as much as, if not more than the AOD trend, thereby potentially serving as a constraint for climate model evaluation.
+
+
+    
+</p>
+
+      </div>      
+        </div>
+    </div>
+</li>
+<li>
+    <div class="row">
+        <div class="col-sm-12">
+
+              <a class="title" href="https://www.sciencedirect.com/science/article/abs/pii/S0048969719334394"
+ target="_blank" rel="noopener noreferrer">
+Evaluation and uncertainty estimate of next-generation geostationary meteorological Himawari-8/AHI aerosol products 
+                </a>             
+            <div class="author">Wei, J., Li, Z., Sun, L., Peng, Y., Zhang, Z., Li, Z., <strong>Su, T.</strong> <em>et al</em>.</div>
+            <div class="periodical"><em>Science of The Total Environment</em></div>
+            <div class="links">
+                <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+            </div>
+            <div class="abstract hidden">
+
+<p>
+  The next-generation geostationary meteorological Himawari-8 satellite carrying the Advanced Himawari Imager (AHI) allows frequent observations of the atmosphere, the surface, and oceans every 10 min. With its retrieval algorithms recently updated, Himawari-8/AHI Version 2 Level 2 aerosol products are now available. However, these retrievals have not yet undergone a quality assessment. This study aims to comprehensively validate the official aerosol optical properties derived from Himawari-8/AHI over land and ocean. Aerosol Robotic Network and Sun-Sky Radiometer Observation Network ground-based measurements at 98 stations in the Himawari-domain region are used to validate aerosol optical depth (AOD, or τ) retrievals at 500 nm and Ångström exponent (AE) retrievals at 440–675 nm from the year 2016. The AOD retrievals agree well with surface observations (i.e., from linear regression, slope = 0.876, intercept = 0.076, and correlation coefficient = 0.756) with a mean absolute error and a root-mean-square error of 0.168 and 0.293, respectively. On site and regional scales, large uncertainties are seen, especially in Australia (significant overestimation) and South Asia (significant underestimation). The AOD retrievals can correctly capture daily variations and show the best (worst) performance in summer (spring). The AE performance is poorer on all scales, showing overall underestimations, especially in Australia, Southeast Asia, and China. The data quality of AOD retrievals improves as the vegetation coverage and the AE increases. This suggests that the official aerosol retrieval algorithm still faces great challenges over bright surfaces and under coarse-particle-dominated conditions. In general, approximately 61% and 64% of the AOD matchups meet the newly defined expected errors of [0.330 × τ + 0.024; −0.132 × τ − 0.125] and [0.519 × τ + 0.005; −0.007 × τ − 0.194] determined by ground measurements and aerosol retrievals, respectively. The highly variable accuracy of aerosol retrievals raises a concern about the reliability of the current product under different environmental conditions and underlying surfaces. It also sheds light on what future improvements need implementing to the aerosol retrieval algorithm.
+
+  
+</p>
+
+        </div>    
+        </div>
+    </div>
+</li>
+<li>
+    <div class="row">
+        <div class="col-sm-12">
+
+              <a class="title" href="https://www.sciencedirect.com/science/article/abs/pii/S0169809518308457"
+ target="_blank" rel="noopener noreferrer">
+Seasonal and diurnal variability of planetary boundary layer height in Beijing: Intercomparison between MPL and WRF results
+              </a>             
+            <div class="author">Chu, Y., Li, J., Li, C., Tan, W., <strong>Su, T.</strong> <em>et al</em>.</div>
+            <div class="periodical"><em>Atmospheric Research</em></div>
+            <div class="links">
+                <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+            </div>
+            <div class="abstract hidden">
+
+<p>
+The Planetary boundary layer (PBL) plays an important role in energy exchange and pollutant dispersion. The height of the PBL (PBLH) usually exhibits distinct diurnal variation. In this study, we investigate the characteristics of PBLH variation of Beijing China based on 1-year observations from Micropulse LIDAR (MPL) data, and compared against the PBLH simulated by the Weather Research and Forecast (WRF) model using eight different schemes. The variation of daytime MPL PBLH has been classified into four representative types using k-means clustering technique. Through comparison against MPL, it is shown that the Mellor-Yamada Nakanishi and Niino Level 3 (MYNN3) scheme, a second-order closure scheme, performs the best in representing the PBLH variation in most of the cases. The non-local schemes also show advantages in convective situations, due to the stronger vertical mixing embedded in these schemes. Further analyses show that differences in PBLH definition is a major factor causing the divergence among different schemes, while the biases of the profiles play a minor role.
+
+    
+</p>
+</div>
+            
+        </div>
+    </div>
+</li>
+    
+ <h4 class="year">2018</h4>
+<li>
+    <div class="row">
+        <div class="col-sm-12">
+              <a class="title" href="https://acp.copernicus.org/articles/18/15921/2018/"
+ target="_blank" rel="noopener noreferrer">
+Relationships between the planetary boundary layer height and surface pollutants derived from lidar observations over China: regional pattern and influencing factors
+              </a> 
+            
+            <div class="author"><strong>Su, T.</strong>, Li, Z., and Kahn, R.</div>
+            <div class="periodical"><em>Atmos. Chem. Phys.</em></div>
+            <div class="links">
+                <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                <a href="/assets/pdf/Relationships%20between%20the%20planetary%20boundary%20layer%20height%20and.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button" target="_blank">pdf</a>
+                  <a href="https://news.essic.umd.edu/li-and-su-published-on-chinese-severe-air-pollution-episodes/" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button" target="_blank">HIGHLIGHT</a>
+              
+            </div>
+            <div class="abstract hidden">
+
+<p>
+The frequent occurrence of severe air pollution episodes in China has been a great concern and thus the focus of intensive studies. Planetary boundary layer height (PBLH) is a key factor in the vertical mixing and dilution of near-surface pollutants. However, the relationship between PBLH and surface pollutants, especially particulate matter (PM) concentration across China, is not yet well understood. We investigate this issue at ∼1600 surface stations using PBLH derived from space-borne and ground-based lidar, and discuss the influence of topography and meteorological variables on the PBLH–PM relationship. Albeit the PBLH–PM correlations are roughly negative for most cases, their magnitude, significance, and even sign vary considerably with location, season, and meteorological conditions. Weak or even uncorrelated PBLH–PM relationships are found over clean regions (e.g., Pearl River Delta), whereas nonlinearly negative responses of PM to PBLH evolution are found over polluted regions (e.g., North China Plain). Relatively strong PBLH–PM interactions are found when the PBLH is shallow and PM concentration is high, which typically corresponds to wintertime cases. Correlations are much weaker over the highlands than the plains regions, which may be associated with lighter pollution loading at higher elevations and contributions from mountain breezes. The influence of horizontal transport on surface PM is considered as well, manifested as a negative correlation between surface PM and wind speed over the whole nation. Strong wind with clean upwind air plays a dominant role in removing pollutants, and leads to obscure PBLH–PM relationships. A ventilation rate is used to jointly consider horizontal and vertical dispersion, which has the largest impact on surface pollutant accumulation over the North China Plain. As such, this study contributes to improved understanding of aerosol–planetary boundary layer (PBL) interactions and thus our ability to forecast surface air pollution.
+
+    
+</p>
+
+      </div>      
+        </div>
+    </div>
+</li>
+<li>
+
+  <h4 class="year">2017</h4>
+   
+    <div class="row">
+        <div class="col-sm-12">
+
+              <a class="title" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016JD025937"
+ target="_blank" rel="noopener noreferrer">
+An intercomparison of long-term planetary boundary layer heights retrieved from CALIPSO, ground-based lidar, and radiosonde measurements over Hong Kong
+              </a>             
+            <div class="author"><strong>Su, T.</strong> <em>et al</em>.</div>
+            <div class="periodical"><em>J. Geophys. Res. Atmos.</em></div>
+            <div class="links">
+                <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                   <a href="/assets/pdf/An%20intercomparison%20of%20long%20term%20planetary%20boundary%20layer%20heights%20retrieved%20from%20CALIPSO,%20ground%20based%20lidar,%20and%20radiosonde%20measurements%20over%20Hong%20Kong.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button" target="_blank">pdf</a>
+             
+            </div>
+            <div class="abstract hidden">
+
+
+<p>
+The planetary boundary layer height (PBLH) is a very important parameter in the atmosphere, because it determines the range where the most effective dispersion processes take place, and serves as a constraint on the vertical transport of heat, moisture, and pollutants. As the only space-borne lidar, Cloud-Aerosol Lidar with Orthogonal Polarization onboard Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observations (CALIPSO) measures the vertical distribution of aerosol signals and thus offers the potential to retrieve large-scale PBLH climatology. In this study, we explore different techniques for retrieving PBLH from CALIPSO measurements and validate the results against those obtained from ground-based micropulse lidar (MPL) and radiosonde (RS) data over Hong Kong, where long-term MPL and RS measurements are available. Two methods, namely maximum standard deviation (MSD) and wavelet covariance transform (WCT), are used to retrieve PBLH from CALIPSO. Results show that the RS- and MPL-derived PBLHs share similar interannual variation and seasonality and can complement each other. Both MSD and WCT perform reasonably well compared with MPL/RS products, especially under sufficient aerosol loading. Uncertainties increase when aerosol loading is low and the CALIPSO signal consequently becomes noisier. Overall, CALIPSO captures the general PBLH seasonal variability over Hong Kong, despite a high bias in spring and a low bias in summer. The spring high bias is likely associated with elevated aerosol layers due to transport, while the summer low bias can be attributed to higher noise level associated with weaker aerosol signal. 
+</p>
+           </div> 
+        </div>
+    </div>
+</li>
+
+<li>
+    <div class="row">
+        <div class="col-sm-12">
+
+              <a class="title" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017GL073533"
+ target="_blank" rel="noopener noreferrer">
+Declining frequency of summertime local-scale precipitation over eastern China from 1970 to 2010 and its potential link to aerosols
+              </a>            
+            <div class="author">Guo, J.*, <strong>Su, T.*</strong>, <em>et al</em>.</div>
+            <div class="periodical"><em>Geophys. Res. Lett.</em></div>
+            <div class="links">
+                <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+        <a href="/assets/pdf/Declining%20frequency%20of%20summertime%20local%20scale%20precipitation%20over%20eastern%20China%20from%201970%20to%202010%20and%20its%20potential%20link%20to%20aerosols.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button" target="_blank">pdf</a>
+      
+            </div>
+            <div class="abstract hidden">
+
+<p>
+ Summer precipitation plays critical roles in the energy balance and the availability of fresh water over eastern China. However, little is known regarding the trend in local-scale precipitation (LSP). Here we developed a novel method to determine LSP events in the summer afternoon throughout eastern China from 1970 to 2010 based on hourly gauge measurements. The LSP occurrence hours decrease at an annual rate of 0.25%, which varies considerably by region, ranging from 0.14% over the Yangtze River Delta to 0.56% over the Pearl River Delta. This declining frequency of LSP is generally accompanied by an increase in rain rate of LSP but a decrease in visibility, whose linkage to LSP events was investigated. In particular, more LSP events tended to form when the atmosphere was slightly polluted. Afterward, LSP was suppressed. These findings have important implications for improving our understanding of the climatology of daytime precipitation at local scales.
+
+   
+</p>
+
+       </div>     
+        </div>
+    </div>
+</li>
+
+    
+<li>
+    <div class="row">
+        <div class="col-sm-12">
+
+                <a class="title" href="https://www.sciencedirect.com/science/article/abs/pii/S1352231017305034"
+ target="_blank" rel="noopener noreferrer">
+An intercomparison of AOD-converted PM2.5 concentrations using different approaches for estimating aerosol vertical distribution
+              </a>          
+            <div class="author"><strong>Su, T.</strong> <em>et al</em>.</div>
+            <div class="periodical"><em>Atmos. Environ.</em></div>
+            <div class="links">
+                <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                 <a href="/assets/pdf/An%20intercomparison%20of%20AOD%20converted%20PM2.%205%20concentrations%20using%20different%20approaches%20for%20estimating%20aerosol%20vertical%20distribution.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 html-pdf-btn" role="button" target="_blank">pdf</a>
+
+            </div>
+            <div class="abstract hidden">
+
+<p>
+Due to the limited spatial coverage of surface PM2.5 monitoring sites, satellite AOD (aerosol optical depth) products have been widely used to estimate surface PM2.5 in different parts of the world. A major difficulty as well as source of uncertainty in converting AOD to PM2.5 is the determination of aerosol vertical distribution, usually represented by the boundary layer height (BLH). In this study, we evaluate the performance of different approaches of estimating aerosol vertical distributions in the AOD-PM2.5 conversion process, using long-term and multi-source data acquired at a super station, Yuen Long, Hong Kong. The monthly climatology of aerosol vertical distribution and BLH products derived from lidar, radiosonde, and MERRA reanalysis data are respectively applied for converting AOD to surface aerosol extinction coefficients. Seasonal empirical hygroscopic growth functions are constructed to convert aerosol extinction to dry PM2.5 mass concentration. Results indicate that different vertical distribution estimation approaches can have highly varying effect on the converted PM2.5 concentration. Using lidar-derived BLHs shows the best agreement, with a correlation coefficient of 0.73 and a relative bias of 30.6% between retrievals and observations. Since continuous lidar measurements are not available for most regions, the climatology pattern of aerosol structure and radiosonde-derived BLHs are found to be suitable alternatives with a correlation coefficient of ∼0.6, and considerably outperform the results using BLHs derived from reanalysis data. Elevated aerosol layers appear to be the major source of uncertainty and result in an overestimate of satellite results, especially during the spring and summer seasons.
+
+    
+</p>
+
+           </div> 
+        </div>
+    </div>
+</li>
+<li>
+    <div class="row">
+        <div class="col-sm-12">
+
+                <a class="title" href="https://ieeexplore.ieee.org/abstract/document/7879856/"
+ target="_blank" rel="noopener noreferrer">
+The Evolution of Springtime Water Vapor Over Beijing Observed by a High Dynamic Raman Lidar System: Case Studies
+              </a> 
+            
+            <div class="author"><strong>Su, T.</strong> <em>et al</em>.</div>
+            <div class="periodical"><em>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</em></div>
+            <div class="links">
+                <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+                     <a href="/assets/pdf/The_Evolution_of_Springtime_Water_Vapor_Over_Beijing_Observed_by_a_High_Dynamic_Raman_Lidar_System_Case_Studies.pdf" class="btn btn-sm z-depth-0 html-pdf-btn" role="button" target="_blank">pdf</a>
+           
+            </div>
+            <div class="abstract hidden">
+
+<p>
+Raman lidar is an effective technique to retrieve the vertical distribution of atmospheric water vapor. For the first time, we present water vapor profiles retrieved by a high dynamic Raman lidar system over the Beijing area for representative cases in spring 2014, within the framework of the Aerosol Multi-wavelength Polarization Lidar Experiment project. In springtime, water vapor content over Beijing is generally low but with a strong daily variability. Its evolution is strongly coupled with winds and aerosols, with clouds also exerting a distinct impact. Northwesterly winds is found to be the most important factor impacting the temporal variability of water vapor mixing ratio (WVMR), and WVMR is found to be negatively correlated with wind speed. Moreover, we find that clouds tend to cause significant increases in the standard deviation of WMVR measurement, and relative humidity sharply increase below the cloud base. During a typical pollution episode, water vapor strongly covaries with aerosols due to hygroscopic growth effect and transport mechanism. Both water vapor and aerosols exhibit the highest variability within the planetary boundary layer (PBL), where the development and dissipation of haze mainly occur. Within the PBL, water vapor and aerosol concentration demonstrate different evolution features at different altitudes during the haze process, with a delayed increase and early decrease for higher altitudes. Back trajectory analysis using the hybrid single-particle Lagrangian trajectory model indicates that this phenomenon is most likely associated with different sources of the air mass at different altitudes.
+    
+</p>
+           </div> 
+        </div>
+    </div>
+</li>
+
+
+  <h4 class="year">2016</h4>
+
+<li>
+    <div class="row">
+        <div class="col-sm-12">
+
+                 <a class="title" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016GL070201"
+ target="_blank" rel="noopener noreferrer">
+Changes in surface aerosol extinction trends over China during 1980–2013 inferred from quality‐controlled visibility data
+              </a>            
+            <div class="author">Li, J., Li, C., Zhao, C., and <strong>Su, T.</strong></div>
+            <div class="periodical"><em>Geophys. Res. Lett.</em></div>
+            <div class="links">
+                <button class="abstract-btn btn btn-sm z-depth-0" role="button">Abstract</button>
+            </div>
+            <div class="abstract hidden">
+
+<p>
+Pollution in China has been attracting extensive attention both globally and regionally, especially due to the perceptually worsening “smog” condition in recent years. We use routine visibility measurements from 1980 to 2013 at 272 World Meteorological Organization stations in China to assess the temporal changes in the magnitude and the sign of pollution trends. A strict and comprehensive quality control procedure is enforced by considering several issues not typically addressed in previous studies. Two methods are used to independently estimate the trend and its significance level. Results show that, in general, a strong increase in aerosol extinction coefficient over the majority of China is observed in the 1980s, followed by a moderate decrease in the 1990s, another increase in the 2000s, and a shift to decrease since around 2006 for some regions. Seasonally, winter and fall trends appear to be the strongest, while summer has the lowest trend.
+
+    
+</p>
+           </div> 
+        </div>
+    </div>
+</li>
+
+    
+</ol>
+    
+<style>
+    .btn.btn-sm.z-depth-0 {
+        border: 2px solid black; /* Black square border */
+        border-radius: 0; /* Square shape */
+    }
+    .abstract.hidden {
+        display: none; /* Ensure abstract is hidden by default */
+    }
+    .links {
+        margin-bottom: 10px; /* Space before abstract */
+    }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.abstract-btn').click(function() {
+            $(this).closest('.row').find('.abstract').toggle(); // Toggle visibility of the abstract
+        });
+    });
+</script>
+
+
+
+    
+</div>
+</article> 
+</div> 
+</div>
+    
+<footer class="fixed-bottom" style="background-color: black; color: white; font-size: 10px;">
+    <div class="container mt-0">
+        © Copyright 2024 Tianning Su. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer" style="color: white;">GitHub Pages</a>. Last updated: Feb 23, 2024.
+    </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+</body>
+</html>
